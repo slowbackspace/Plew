@@ -11,16 +11,24 @@
 		6E12C20E2229CAF800FED2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E12C20D2229CAF800FED2D7 /* ViewController.swift */; };
 		6E12C2102229CAFA00FED2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E12C20F2229CAFA00FED2D7 /* Assets.xcassets */; };
 		6E12C2132229CAFA00FED2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E12C2112229CAFA00FED2D7 /* Main.storyboard */; };
+		6E94CEDE222AE48C00FCF91D /* bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94CEDD222AE48C00FCF91D /* bundle.swift */; };
+		6E94CEE0222AE59300FCF91D /* notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94CEDF222AE59300FCF91D /* notification.swift */; };
+		6E94CEE2222AE5E000FCF91D /* MenuItemWithPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94CEE1222AE5E000FCF91D /* MenuItemWithPayload.swift */; };
+		6E94CEE4222AE63A00FCF91D /* automation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94CEE3222AE63A00FCF91D /* automation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E12C2082229CAF800FED2D7 /* Browswitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Browswitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E12C2082229CAF800FED2D7 /* Plew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E12C20B2229CAF800FED2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E12C20D2229CAF800FED2D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E12C20F2229CAFA00FED2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E12C2122229CAFA00FED2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E12C2142229CAFA00FED2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E12C2152229CAFA00FED2D7 /* Browswitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Browswitch.entitlements; sourceTree = "<group>"; };
+		6E12C2152229CAFA00FED2D7 /* Plew.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Plew.entitlements; sourceTree = "<group>"; };
+		6E94CEDD222AE48C00FCF91D /* bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bundle.swift; sourceTree = "<group>"; };
+		6E94CEDF222AE59300FCF91D /* notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notification.swift; sourceTree = "<group>"; };
+		6E94CEE1222AE5E000FCF91D /* MenuItemWithPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemWithPayload.swift; sourceTree = "<group>"; };
+		6E94CEE3222AE63A00FCF91D /* automation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = automation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +45,7 @@
 		6E12C1FF2229CAF800FED2D7 = {
 			isa = PBXGroup;
 			children = (
-				6E12C20A2229CAF800FED2D7 /* Browswitch */,
+				6E12C20A2229CAF800FED2D7 /* Plew */,
 				6E12C2092229CAF800FED2D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,30 +53,42 @@
 		6E12C2092229CAF800FED2D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E12C2082229CAF800FED2D7 /* Browswitch.app */,
+				6E12C2082229CAF800FED2D7 /* Plew.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E12C20A2229CAF800FED2D7 /* Browswitch */ = {
+		6E12C20A2229CAF800FED2D7 /* Plew */ = {
 			isa = PBXGroup;
 			children = (
+				6E94CEDC222AE46E00FCF91D /* utils */,
 				6E12C20B2229CAF800FED2D7 /* AppDelegate.swift */,
 				6E12C20D2229CAF800FED2D7 /* ViewController.swift */,
 				6E12C20F2229CAFA00FED2D7 /* Assets.xcassets */,
 				6E12C2112229CAFA00FED2D7 /* Main.storyboard */,
 				6E12C2142229CAFA00FED2D7 /* Info.plist */,
-				6E12C2152229CAFA00FED2D7 /* Browswitch.entitlements */,
+				6E12C2152229CAFA00FED2D7 /* Plew.entitlements */,
 			);
-			path = Browswitch;
+			path = Plew;
+			sourceTree = "<group>";
+		};
+		6E94CEDC222AE46E00FCF91D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6E94CEDD222AE48C00FCF91D /* bundle.swift */,
+				6E94CEDF222AE59300FCF91D /* notification.swift */,
+				6E94CEE1222AE5E000FCF91D /* MenuItemWithPayload.swift */,
+				6E94CEE3222AE63A00FCF91D /* automation.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E12C2072229CAF800FED2D7 /* Browswitch */ = {
+		6E12C2072229CAF800FED2D7 /* Plew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E12C2182229CAFA00FED2D7 /* Build configuration list for PBXNativeTarget "Browswitch" */;
+			buildConfigurationList = 6E12C2182229CAFA00FED2D7 /* Build configuration list for PBXNativeTarget "Plew" */;
 			buildPhases = (
 				6E12C2042229CAF800FED2D7 /* Sources */,
 				6E12C2052229CAF800FED2D7 /* Frameworks */,
@@ -78,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = Browswitch;
-			productName = Browswitch;
-			productReference = 6E12C2082229CAF800FED2D7 /* Browswitch.app */;
+			name = Plew;
+			productName = Plew;
+			productReference = 6E12C2082229CAF800FED2D7 /* Plew.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,10 +115,15 @@
 				TargetAttributes = {
 					6E12C2072229CAF800FED2D7 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 6E12C2032229CAF800FED2D7 /* Build configuration list for PBXProject "Browswitch" */;
+			buildConfigurationList = 6E12C2032229CAF800FED2D7 /* Build configuration list for PBXProject "Plew" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E12C2072229CAF800FED2D7 /* Browswitch */,
+				6E12C2072229CAF800FED2D7 /* Plew */,
 			);
 		};
 /* End PBXProject section */
@@ -133,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E94CEE0222AE59300FCF91D /* notification.swift in Sources */,
+				6E94CEE2222AE5E000FCF91D /* MenuItemWithPayload.swift in Sources */,
 				6E12C20E2229CAF800FED2D7 /* ViewController.swift in Sources */,
 				6E12C20C2229CAF800FED2D7 /* AppDelegate.swift in Sources */,
+				6E94CEE4222AE63A00FCF91D /* automation.swift in Sources */,
+				6E94CEDE222AE48C00FCF91D /* bundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +300,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Browswitch/Browswitch.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Plew/Plew.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Browswitch/Info.plist;
+				INFOPLIST_FILE = Plew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slowbackspace.Browswitch;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slowbackspace.Plew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -289,15 +319,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Browswitch/Browswitch.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Plew/Plew.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Browswitch/Info.plist;
+				INFOPLIST_FILE = Plew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slowbackspace.Browswitch;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slowbackspace.Plew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -306,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E12C2032229CAF800FED2D7 /* Build configuration list for PBXProject "Browswitch" */ = {
+		6E12C2032229CAF800FED2D7 /* Build configuration list for PBXProject "Plew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E12C2162229CAFA00FED2D7 /* Debug */,
@@ -315,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E12C2182229CAFA00FED2D7 /* Build configuration list for PBXNativeTarget "Browswitch" */ = {
+		6E12C2182229CAFA00FED2D7 /* Build configuration list for PBXNativeTarget "Plew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E12C2192229CAFA00FED2D7 /* Debug */,

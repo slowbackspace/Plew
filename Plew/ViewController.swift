@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Browswitch
+//  Plew
 //
 //  Created by Maroš Špak on 01/03/2019.
 //  Copyright © 2019 slowbackspace. All rights reserved.
